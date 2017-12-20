@@ -22,7 +22,7 @@ function draw() {
   background(255);
   image(p1,0,0);
   image(p2,x,900);
-  image(p30,0,0);
+  image(p3,0,0);
   if (recording) {
     gif.addFrame(c.elt, {delay: 1, copy: true});
   }
