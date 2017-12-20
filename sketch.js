@@ -20,7 +20,7 @@ function setup() {
 function draw() {
   background(255);
   image(p3,0,0);
-  image(p2,x,900);
+  image(p2,x,781);
   image(p1,0,0);
   gif.addFrame(c.elt, {delay: 1, copy: true});
   x-=4;
